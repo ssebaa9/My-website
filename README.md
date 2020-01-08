@@ -4,7 +4,7 @@
 My Website, created in React, with sass and firebase. 
 Website about me, created by me.
 
-* [firebase hosting](https://sebastian-debicki.web.app/ )
+* [firebase hosting](https://sebastian-debicki.firebaseapp.com/ )
 
 ## Getting Started
 
