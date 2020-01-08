@@ -1,8 +1,8 @@
 
-# Hangman-Game
+# My Website
 
-Hangman Game, created in React. 
-Try to guess the word.
+My Website, created in React, with sass and firebase. 
+Website about me, created by me.
 
 * [firebase hosting](https://sebastian-debicki.web.app/ )
 
