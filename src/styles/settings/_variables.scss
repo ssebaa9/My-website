@@ -1,0 +1,23 @@
+// Podstawowe zmienne
+$base-font-size: 16px;
+$small-font-size: 14px;
+
+$font-family: 'Montserrat', sans-serif;
+
+$main-spacing: 20px;
+$max-width: 1000px;
+
+$color-primary: #2e1114;
+$color-secondary: #bb4e31;
+$color-third: #ABABAB;
+
+
+// MQ - Zastosowanie w mixin.scss
+// $breakpoints
+  $smartphone: 460px;
+  $smartphone-large: 640px;
+  $tablet: 800px;
+  $tablet-large: 1024px;
+  $desktop-small: 1280px;
+  $desktop-medium: 1600px;
+  $desktop-large: 1900px;

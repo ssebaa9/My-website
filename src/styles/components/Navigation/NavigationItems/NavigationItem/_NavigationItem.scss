@@ -1,0 +1,35 @@
+.navigation-item {
+  list-style: none;
+
+  &__link {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: $main-spacing / 1.5 $main-spacing *2;
+    color: white;
+  
+    &:hover {
+      color: lighten($color-secondary, 10%);
+    }
+  
+    &.active {
+      color: lighten($color-secondary, 10%);
+    }
+  }
+}
+
+
+@media(min-width: $smartphone-large) {
+  .navigation-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: center;
+
+    &__link {
+      display: block;
+      padding: $main-spacing;
+    }
+  }
+}

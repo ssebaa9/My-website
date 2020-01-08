@@ -1,0 +1,81 @@
+.projects__project {
+  border-top: 1px solid black;
+  padding: $main-spacing 0;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+
+  &__imgs {
+    width: 100%;
+
+    &-img {
+      margin: $main-spacing / 2;
+      width: 100%;
+    }
+  }
+
+  &__describe {
+    &-subtitle {
+      font-size: $small-font-size *2;
+      padding: $main-spacing /2 0;
+      font-weight: 500;
+    }
+
+    &-technologies {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding: $main-spacing / 2;
+
+      &-tech {
+        padding: $main-spacing / 2;
+
+        &-icon {
+          font-size: $small-font-size *2;
+        }
+      }
+    }
+
+    &-link {
+      display: block;
+      padding: $main-spacing /2 0;
+      color: $color-primary;
+    }
+  }
+
+}
+
+
+@media(min-width: $smartphone-large) {
+  .projects__project {
+
+    &__imgs {
+      width: 55%;
+  
+      &-img {
+        width: 100%;
+      }
+    }
+
+    &__describe {
+      width: 40%;
+      padding: $main-spacing;
+
+      &-subtitle {
+        font-size: $small-font-size *2;
+      }
+    }
+  
+  }
+}
+
+@media(min-width: $tablet) {
+  .projects__project {
+
+    &__describe {
+      &-subtitle {
+        font-size: $base-font-size *2;
+      }
+    }
+  }
+  }

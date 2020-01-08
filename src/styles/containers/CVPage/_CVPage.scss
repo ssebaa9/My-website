@@ -1,0 +1,84 @@
+.cv-page {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: $main-spacing;
+  color: black;
+
+  &__container {
+    border-top: 1px solid black;
+    padding: $main-spacing 0;
+
+    &__list {
+      padding: 0;
+
+      &-el {
+        padding-top: $main-spacing;
+        margin: $main-spacing /2;
+        list-style: disc;
+
+        &-date {
+          font-weight: 600;
+        }
+
+        &-name {
+          padding-top: $main-spacing;
+          text-decoration: underline;
+          font-weight: 400;
+        }
+
+        &-detail {
+          margin: $main-spacing /2;
+          list-style: circle;
+        }
+
+        &-skillName {
+          display: inline-block;
+          width: 180px;
+          font-weight: 600;
+          padding-right: $main-spacing;
+        }
+
+        &-knowlage {
+          padding-left: $main-spacing;
+        }
+      }
+    }
+  }
+
+  &__title {
+    font-size: $small-font-size *3;
+    padding: $main-spacing 0;
+  }
+
+  &__subtitle {
+    font-size: $small-font-size *2;
+    padding: $main-spacing / 2 0;
+    font-weight: 500;
+  }
+}
+
+@media(min-width: $smartphone-large) {
+  .cv-page {
+  
+    &__title {
+      font-size: $small-font-size * 4;
+    }
+  
+    &__subtitle {
+      font-size: $small-font-size *2;
+    }
+  }
+}
+
+@media(min-width: $tablet) {
+  .cv-page {
+  
+    &__title {
+      font-size: $base-font-size * 4;
+    }
+  
+    &__subtitle {
+      font-size: $base-font-size *2;
+    }
+  }
+}

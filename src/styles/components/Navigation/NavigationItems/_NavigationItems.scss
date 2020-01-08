@@ -1,0 +1,9 @@
+.navigation-items {
+  list-style: none;
+}
+
+@media(min-width: $smartphone-large) {
+  .navigation-items{
+    display: flex;
+  }
+}

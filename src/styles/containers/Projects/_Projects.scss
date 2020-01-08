@@ -1,0 +1,31 @@
+.projects {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: $main-spacing;
+  color: black;
+
+  &__title {
+    font-size: $small-font-size *3;
+    padding: $main-spacing 0;
+  }
+}
+
+@media(min-width: $smartphone-large) {
+  .projects {
+  
+    &__title {
+      font-size: $small-font-size * 4;
+    }
+  
+  }
+}
+
+@media(min-width: $tablet) {
+  .projects {
+  
+    &__title {
+      font-size: $base-font-size * 4;
+    }
+  
+  }
+}

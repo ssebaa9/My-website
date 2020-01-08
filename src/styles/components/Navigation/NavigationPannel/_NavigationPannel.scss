@@ -1,0 +1,56 @@
+.navigation-pannel {
+  max-width: $max-width;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: $main-spacing / 1.5;
+
+  &__logo {
+
+    &-name {
+      font-size: $small-font-size * 1.5;
+      padding: $main-spacing / 4;
+      font-weight: 300;
+    }
+
+    &-specialization {
+      padding: $main-spacing / 4;
+      font-weight: 200;
+    }
+  }
+
+  &__bars {
+    width: 20%;
+    position: relative;
+  }
+
+}
+
+@media(min-width: $smartphone-large) {
+  .navigation-pannel {
+
+    &__bars {
+      width: 60%;
+    }
+  }
+}
+
+@media(min-width: $tablet) {
+  .navigation-pannel {
+    &__logo {
+      &-name {
+        font-size: $base-font-size * 1.5;
+      }
+    }
+  }
+}
+
+
+@media(max-width: $smartphone-large) {
+  .navigation-pannel--desktop-only {
+    display: none;
+  }
+}
+
+

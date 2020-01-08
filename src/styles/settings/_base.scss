@@ -1,0 +1,18 @@
+html {
+  font-size: $small-font-size;
+  color: white;
+}
+
+body {
+  font-family: $font-family;
+  margin: 0 auto;
+  background-color: $color-primary;
+  position: relative;
+  font-weight: 300;
+}
+
+@media(min-width: $tablet) {
+  html {
+    font-size: $base-font-size;
+  }
+}
