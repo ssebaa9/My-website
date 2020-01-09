@@ -46,7 +46,7 @@ export const projectsData = [
     describe: 'You can add recepies and later modify them.',
     technologies: [html, css, javaScript],
     images: [recepiesImg1, recepiesImg2],
-    githubLink: 'https://github.com/ssebaa9/recepies'
+    githubLink: 'https://github.com/ssebaa9/recepies',
   },
   {
     title: 'Savings/Expenses Formular',
