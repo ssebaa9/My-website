@@ -7,7 +7,6 @@ class NavigationPannel extends Component {
 
   render() {
 
-
     return (
       <div className="navigation-pannel">
         <div className="navigation-pannel__logo">

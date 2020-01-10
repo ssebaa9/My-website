@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const workHistorieData = [{
   jobTitle: 'Trainee',
   employer: '"Verde Mortana" Hotel',
@@ -42,56 +40,56 @@ export const workHistorieData = [{
 }
 ];
 
-const fullDot = (<i style={{ marginRight: '2px' }} className="fas fa-circle"></i>)
-const emptyDot = (<i style={{ marginRight: '2px' }} className="far fa-circle"></i>)
+// const fullDot = (<span style={{ marginRight: '2px' }} className="fas fa-circle"></span>)
+// const emptyDot = (<span style={{ marginRight: '2px' }} className="far fa-circle"></span>)
 
 
 export const skillsData = [
   {
     name: 'HTML',
-    knowlage: [fullDot, fullDot, fullDot, fullDot, emptyDot]
+    knowlage: "Good"
   },
   {
     name: 'CSS',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: "Good"
   },
   {
     name: 'JavaScript',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: "Good"
   },
   {
     name: 'React',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: 'Good'
   },
   {
     name: 'Angular',
-    knowlage: [fullDot, emptyDot, emptyDot, emptyDot, emptyDot]
+    knowlage: 'Basic'
   },
   {
     name: 'Redux',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: 'Average'
   },
   {
     name: 'SASS',
-    knowlage: [fullDot, fullDot, emptyDot, emptyDot, emptyDot]
+    knowlage: 'Good'
   },
   {
     name: 'GIT',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: 'Good'
   },
   {
-    name: 'Jira, Slack, Github',
-    knowlage: [fullDot, fullDot, emptyDot, emptyDot, emptyDot]
+    name: 'Jira',
+    knowlage: 'Basic'
   },
   {
     name: 'Firebase',
-    knowlage: [fullDot, emptyDot, emptyDot, emptyDot, emptyDot]
+    knowlage: 'Basic'
   },
 ];
 
 export const languagesData = [
   {
     name: 'English',
-    knowlage: [fullDot, fullDot, fullDot, emptyDot, emptyDot]
+    knowlage: 'Good'
   },
 ]

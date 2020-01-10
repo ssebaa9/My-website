@@ -14,14 +14,14 @@ const CVPage = () => {
 
   const skills = skillsData.map((skill, index) =>
     <li key={index} className="cv-page__container__list-el">
-      <span className="cv-page__container__list-el-skillName">{skill.name}</span>
-      <span className="cv-page__container__list-el-knowlage">{skill.knowlage.map((knowlage, index) => <span key={index}>{knowlage}</span>)}</span>
+      <span className="cv-page__container__list-el-skillName">{skill.name} - </span>
+      <span className="cv-page__container__list-el-knowlage"> {skill.knowlage}</span>
     </li>)
 
   const languages = languagesData.map(language =>
     <li key={language} className="cv-page__container__list-el">
-      <span className="cv-page__container__list-el-skillName">{language.name}</span>
-      <span className="cv-page__container__list-el-knowlage">{language.knowlage.map((knowlage, index) => <span key={index}>{knowlage}</span>)}</span>
+      <span className="cv-page__container__list-el-skillName">{language.name} - </span>
+      <span className="cv-page__container__list-el-knowlage"> {language.knowlage}</span>
     </li>
   )
 
@@ -30,7 +30,7 @@ const CVPage = () => {
       <h2 className="cv-page__title">CV</h2>
       <div className="cv-page__container">
         <h3 className="cv-page__subtitle">About me</h3>
-        <p>I am a beginner front-end web developer specialized mainly in React. I created several of web projects using HTML, CSS and JavaScript. I am punctual and organized employee, always striving to achieve my goal. I focus mainly on personal development and try to systematically develop in various areas of my life. Even if I encounter a problem that is beyond me, I don't give up and try to solve it.</p>
+        <p className="cv-page__container-about">I am a beginner front-end web developer specialized mainly in React. I created several of web projects using HTML, CSS and JavaScript. I am punctual and organized employee, always striving to achieve my goal. I focus mainly on personal development and try to systematically develop in various areas of my life. Even if I encounter a problem that is beyond me, I don't give up and try to solve it.</p>
       </div>
       <div className="cv-page__container">
         <h3 className="cv-page__subtitle">Skills</h3>

@@ -2,11 +2,11 @@ import React from 'react';
 import NavigationItems from '../NavigationItems/NavigationItems';
 
 const SideDrawer = (props) => {
-  let classOpen = "side-drawer close"
-  if (props.isOpen) classOpen = "side-drawer open"
+
+  const { isOpen } = props
 
   return (
-    <div className={classOpen} onClick={props.openMenuHandler}>
+    <div className={isOpen ? "side-drawer open" : "side-drawer close"} onClick={props.openMenuHandler}>
       <nav className="side-drawer__container">
         <NavigationItems />
       </nav>

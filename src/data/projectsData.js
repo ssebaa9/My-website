@@ -92,7 +92,7 @@ export const projectsData = [
   },
   {
     title: 'My Website',
-    describe: 'Website about me, all creted by me',
+    describe: 'Website about me, all created by me',
     technologies: [html, css, javaScript, react, sass, firebase],
     images: [mywebsiteImg1, mywebsiteImg2, mywebsiteImg3, mywebsiteImg4, mywebsiteImg5, mywebsiteImg6],
     githubLink: 'https://github.com/ssebaa9/My-website.git'
