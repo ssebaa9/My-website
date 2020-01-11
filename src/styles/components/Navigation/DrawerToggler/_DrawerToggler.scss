@@ -36,19 +36,15 @@
   }
 
   .toolbar__elem.open:nth-last-of-type(1) {
-    top: 0;
-    left: -100%;
+    transform: rotate(-45deg);
   }
 
   .toolbar__elem.open:nth-last-of-type(2) {
-    top: 50%;
-    left: 100%;
-    transform: translateY(-50%);
+    left: 50%;
   }
 
   .toolbar__elem.open:nth-last-of-type(3) {
-    bottom: 0;
-    left: -100%;
+    transform: rotate(45deg);
   }
   
 }
