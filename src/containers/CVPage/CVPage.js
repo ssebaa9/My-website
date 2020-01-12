@@ -4,7 +4,7 @@ import { workHistorieData, skillsData, languagesData } from '../../data/cvData';
 const CVPage = () => {
 
   const workHistorie = workHistorieData.map((work, index) =>
-    <li key={index} className="cv-page__container__list-el">
+    <li key={index} className="cv-page__container__list-el" data-test="work-historie-el">
       <p className="cv-page__container__list-el-date">{work.startDate} - {work.endDate}</p>
       <p className="cv-page__container__list-el-name">{work.jobTitle} - {work.employer}, {work.city}</p>
       <ul>
@@ -13,13 +13,13 @@ const CVPage = () => {
     </li>)
 
   const skills = skillsData.map((skill, index) =>
-    <li key={index} className="cv-page__container__list-el">
+    <li key={index} className="cv-page__container__list-el" data-test="skills-el">
       <span className="cv-page__container__list-el-skillName">{skill.name} - </span>
       <span className="cv-page__container__list-el-knowlage"> {skill.knowlage}</span>
     </li>)
 
   const languages = languagesData.map(language =>
-    <li key={language} className="cv-page__container__list-el">
+    <li key={language} className="cv-page__container__list-el" data-test="language-el">
       <span className="cv-page__container__list-el-skillName">{language.name} - </span>
       <span className="cv-page__container__list-el-knowlage"> {language.knowlage}</span>
     </li>

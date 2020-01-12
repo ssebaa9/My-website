@@ -11,7 +11,7 @@ const Project = (props) => {
     <div className="projects__project">
       <div className="projects__project__imgs" data-aos="fade-right" data-aos-offset="200" data-aos-duration="900">
         <Gallery index={index} onRequestChange={i => setIndex(i)}>
-          {props.images.map(image => <GalleryImage key={image} src={image} objectFit="cover" alt="project picture" />)}
+          {props.images.map(image => <GalleryImage className="gallery-image" key={image} src={image} objectFit="cover" alt="project picture" />)}
         </Gallery>
       </div>
       <div className="projects__project__describe" data-aos="fade-left" data-aos-offset="200" data-aos-duration="900">

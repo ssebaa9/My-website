@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+// firebase.analytics();
 
 const messagesRef = firebase.database().ref('messages')
 
@@ -29,7 +29,7 @@ class Contact extends Component {
 
   handleFormSubmit = (e) => {
     e.preventDefault();
-    if (this.state.email !== '' && this.state.message !== '' && this.state.email.trim() !== '' && this.state.message.trim() !== '') {
+    if (this.state.email !== '' && this.state.message !== '') {
       this.saveMessage();
 
       this.setState({ alert: 'Your message has been sent', alertStyles: { backgroundColor: 'green' }, inputStyles: { border: '1px solid black' } });
