@@ -33,7 +33,7 @@ import mywebsiteImg6 from '../assets/projects-imgs/mywebsite-img-6.png';
 
 const html = <span title="HTML" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:html-5" data-inline="false"></span>
 const css = <span title="CSS" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:css-3" data-inline="false"></span>
-const javaScript = <span title="javaScript" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:javascript" data-inline="false"></span>
+const javaScript = <span title="JavaScript" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:javascript" data-inline="false"></span>
 const react = <span title="React" className="iconify iconify projects__project__describe-technologies-tech-icon" data-icon="logos:react" data-inline="false"></span>;
 const sass = <span title="SASS" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:sass" data-inline="false"></span>
 const redux = <span title="Redux" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos-redux" data-inline="false"></span>

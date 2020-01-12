@@ -9,9 +9,9 @@ const Footer = () => {
       </div>
       <div className="footer__follow">
         <h3 className="footer__sub-title">Follow me:</h3>
-        <a className='footer__follow-link' href="https://github.com/ssebaa9"><i className="fab fa-github footer__follow-elem"></i></a>
-        <a className='footer__follow-link' href="https://www.facebook.com/sebastian.debicki5"><i className="fab fa-facebook footer__follow-elem"></i></a>
-        <a className='footer__follow-link' href="https://www.instagram.com/ssebaa9/?hl=pl"><i className="fab fa-instagram footer__follow-elem"></i></a>
+        <a className='footer__follow-link' href="https://github.com/ssebaa9"><span className="fab fa-github footer__follow-elem"></span></a>
+        <a className='footer__follow-link' href="https://www.facebook.com/sebastian.debicki5"><span className="fab fa-facebook footer__follow-elem"></span></a>
+        <a className='footer__follow-link' href="https://www.instagram.com/ssebaa9/?hl=pl"><span className="fab fa-instagram footer__follow-elem"></span></a>
       </div>
       <p className="footer__copy-right">&copy; Sebastian Dębicki</p>
     </footer>
