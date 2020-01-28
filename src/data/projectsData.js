@@ -29,6 +29,9 @@ import mywebsiteImg3 from '../assets/projects-imgs/mywebsite-img-3.png';
 import mywebsiteImg4 from '../assets/projects-imgs/mywebsite-img-4.png';
 import mywebsiteImg5 from '../assets/projects-imgs/mywebsite-img-5.png';
 import mywebsiteImg6 from '../assets/projects-imgs/mywebsite-img-6.png';
+import tableImg1 from '../assets/projects-imgs/table-img-1.png';
+import tableImg2 from '../assets/projects-imgs/table-img-2.png';
+import tableImg3 from '../assets/projects-imgs/table-img-3.png';
 
 
 const html = <span title="HTML" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:html-5" data-inline="false"></span>
@@ -96,5 +99,12 @@ export const projectsData = [
     technologies: [html, css, javaScript, react, sass, firebase],
     images: [mywebsiteImg1, mywebsiteImg2, mywebsiteImg3, mywebsiteImg4, mywebsiteImg5, mywebsiteImg6],
     githubLink: 'https://github.com/ssebaa9/My-website.git'
+  },
+  {
+    title: 'Table of Companies',
+    describe: 'You can sort the table by header or filter any matching elements by search field. Table looks good on the mobile devices too.',
+    technologies: [html, css, javaScript, react, sass],
+    images: [tableImg1, tableImg2, tableImg3],
+    githubLink: 'https://github.com/ssebaa9/Table-of-Companies'
   }
 ]
