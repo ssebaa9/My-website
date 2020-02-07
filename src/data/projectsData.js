@@ -1,37 +1,46 @@
 import React from 'react';
 
-import recepiesImg1 from '../assets/projects-imgs/recepies-img-1.png';
-import recepiesImg2 from '../assets/projects-imgs/recepies-img-2.png';
-import savingsImg1 from '../assets/projects-imgs/savings-img-1.png';
-import savingsImg2 from '../assets/projects-imgs/savings-img-2.png';
-import savingsImg3 from '../assets/projects-imgs/savings-img-3.png';
-import notesImg1 from '../assets/projects-imgs/notes-img-1.png';
-import weatherImg1 from '../assets/projects-imgs/weather-img-1.png';
-import weatherImg2 from '../assets/projects-imgs/weather-img-2.png';
-import weatherImg3 from '../assets/projects-imgs/weather-img-3.png';
-import weatherImg4 from '../assets/projects-imgs/weather-img-4.png';
-import todoappImg1 from '../assets/projects-imgs/todoapp-img-1.png';
-import todoappImg2 from '../assets/projects-imgs/todoapp-img-2.png';
-import miniblogImg1 from '../assets/projects-imgs/miniblog-img-1.png';
-import miniblogImg2 from '../assets/projects-imgs/miniblog-img-2.png';
-import miniblogImg3 from '../assets/projects-imgs/miniblog-img-3.png';
-import miniblogImg4 from '../assets/projects-imgs/miniblog-img-4.png';
-import miniblogImg5 from '../assets/projects-imgs/miniblog-img-5.png';
-import hangmanImg1 from '../assets/projects-imgs/hangman-img-1.png';
-import hangmanImg2 from '../assets/projects-imgs/hangman-img-2.png';
-import hangmanImg3 from '../assets/projects-imgs/hangman-img-3.png';
-import hangmanImg4 from '../assets/projects-imgs/hangman-img-4.png';
-import hangmanImg5 from '../assets/projects-imgs/hangman-img-5.png';
-import hangmanImg6 from '../assets/projects-imgs/hangman-img-6.png';
-import mywebsiteImg1 from '../assets/projects-imgs/mywebsite-img-1.png';
-import mywebsiteImg2 from '../assets/projects-imgs/mywebsite-img-2.png';
-import mywebsiteImg3 from '../assets/projects-imgs/mywebsite-img-3.png';
-import mywebsiteImg4 from '../assets/projects-imgs/mywebsite-img-4.png';
-import mywebsiteImg5 from '../assets/projects-imgs/mywebsite-img-5.png';
-import mywebsiteImg6 from '../assets/projects-imgs/mywebsite-img-6.png';
-import tableImg1 from '../assets/projects-imgs/table-img-1.png';
-import tableImg2 from '../assets/projects-imgs/table-img-2.png';
-import tableImg3 from '../assets/projects-imgs/table-img-3.png';
+import recepiesImg1 from '../assets/projects-imgs/recepies/recepies-img-1.jpg';
+import recepiesImg2 from '../assets/projects-imgs/recepies/recepies-img-2.jpg';
+import savingsImg1 from '../assets/projects-imgs/savings-form/savings-img-1.jpg';
+import savingsImg2 from '../assets/projects-imgs/savings-form/savings-img-2.jpg';
+import savingsImg3 from '../assets/projects-imgs/savings-form/savings-img-3.jpg';
+import notesImg1 from '../assets/projects-imgs/notes/notes-img-1.jpg';
+import weatherImg1 from '../assets/projects-imgs/weather-app/weather-img-1.jpg';
+import weatherImg2 from '../assets/projects-imgs/weather-app/weather-img-2.jpg';
+import weatherImg3 from '../assets/projects-imgs/weather-app/weather-img-3.jpg';
+import weatherImg4 from '../assets/projects-imgs/weather-app/weather-img-4.jpg';
+import todoappImg1 from '../assets/projects-imgs/to-do-app/todoapp-img-1.jpg';
+import todoappImg2 from '../assets/projects-imgs/to-do-app/todoapp-img-2.jpg';
+import miniblogImg1 from '../assets/projects-imgs/mini-blog/miniblog-img-1.jpg';
+import miniblogImg2 from '../assets/projects-imgs/mini-blog/miniblog-img-2.jpg';
+import miniblogImg3 from '../assets/projects-imgs/mini-blog/miniblog-img-3.jpg';
+import miniblogImg4 from '../assets/projects-imgs/mini-blog/miniblog-img-4.jpg';
+import miniblogImg5 from '../assets/projects-imgs/mini-blog/miniblog-img-5.jpg';
+import hangmanImg1 from '../assets/projects-imgs/hangman-game/hangman-img-1.jpg';
+import hangmanImg2 from '../assets/projects-imgs/hangman-game/hangman-img-2.jpg';
+import hangmanImg3 from '../assets/projects-imgs/hangman-game/hangman-img-3.jpg';
+import hangmanImg4 from '../assets/projects-imgs/hangman-game/hangman-img-4.jpg';
+import hangmanImg5 from '../assets/projects-imgs/hangman-game/hangman-img-5.jpg';
+import hangmanImg6 from '../assets/projects-imgs/hangman-game/hangman-img-6.jpg';
+import mywebsiteImg1 from '../assets/projects-imgs/my-website/mywebsite-img-1.jpg';
+import mywebsiteImg2 from '../assets/projects-imgs/my-website/mywebsite-img-2.jpg';
+import mywebsiteImg3 from '../assets/projects-imgs/my-website/mywebsite-img-3.jpg';
+import mywebsiteImg4 from '../assets/projects-imgs/my-website/mywebsite-img-4.jpg';
+import mywebsiteImg5 from '../assets/projects-imgs/my-website/mywebsite-img-5.jpg';
+import mywebsiteImg6 from '../assets/projects-imgs/my-website/mywebsite-img-6.jpg';
+import tableImg1 from '../assets/projects-imgs/table-companies/table-img-1.jpg';
+import tableImg2 from '../assets/projects-imgs/table-companies/table-img-2.jpg';
+import tableImg3 from '../assets/projects-imgs/table-companies/table-img-3.jpg';
+import portfolioWebImg1 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-1.jpg';
+import portfolioWebImg2 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-2.jpg';
+import portfolioWebImg3 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-3.jpg';
+import portfolioWebImg4 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-4.jpg';
+import portfolioWebImg5 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-5.jpg';
+import portfolioWebImg6 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-6.jpg';
+import portfolioWebImg7 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-7.jpg';
+import portfolioWebImg8 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-8.jpg';
+import portfolioWebImg9 from '../assets/projects-imgs/portfolio-web/portfolio-web-img-9.jpg';
 
 
 const html = <span title="HTML" className="iconify projects__project__describe-technologies-tech-icon" data-icon="logos:html-5" data-inline="false"></span>
@@ -105,6 +114,13 @@ export const projectsData = [
     describe: 'You can sort the table by header or filter any matching elements by search field. Table looks good on the mobile devices too.',
     technologies: [html, css, javaScript, react, sass],
     images: [tableImg1, tableImg2, tableImg3],
+    githubLink: 'https://github.com/ssebaa9/Table-of-Companies'
+  },
+  {
+    title: 'Portfolio Web',
+    describe: 'Website about me. I created this web mainly for increasing my css and sass skils. This website looks good on mobile devices too',
+    technologies: [html, css, javaScript, react, sass, firebase],
+    images: [portfolioWebImg1, portfolioWebImg2, portfolioWebImg3, portfolioWebImg4, portfolioWebImg5, portfolioWebImg6, portfolioWebImg7, portfolioWebImg8, portfolioWebImg9],
     githubLink: 'https://github.com/ssebaa9/Table-of-Companies'
   }
 ]
