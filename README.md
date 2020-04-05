@@ -1,7 +1,7 @@
 
-# My Website
+# Porftolio vol.1
 
-My Website, created in React, with sass and firebase. 
+Created in React, with sass and firebase. 
 Website about me, created by me.
 
 * [firebase hosting](https://debicki-sebastian.web.app/ )
@@ -35,8 +35,6 @@ In the current working directory
 ```
 npm start
 ```
-
-
 
 ## Author
 
